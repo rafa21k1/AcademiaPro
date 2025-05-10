@@ -1,0 +1,187 @@
+
+
+/* Contenedor del carrusel */
+.carousel {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+/* Contenedor del horario */
+.schedule-container {
+    padding: 20px;
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+/* Título del horario mensual */
+.schedule-container h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #1f3557;
+}
+
+/* Tabla de horarios */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+
+/* Encabezados de la tabla */
+.schedule-table th {
+    background-color: #0c4da2;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid #ddd;
+}
+
+/* Celdas de la tabla */
+.schedule-table td {
+    padding: 12px 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+
+/* Primera columna (horas) */
+.schedule-table td:first-child {
+    font-weight: bold;
+    background-color: #f0f2f5;
+}
+
+/* Números de día en negrita */
+.schedule-table strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+/* Colores para las materias */
+/* Matemáticas */
+td:contains("Matemáticas") {
+    background-color: #e6efff;
+    color: #0062cc;
+}
+
+/* Inglés */
+td:contains("Inglés") {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+/* Programación */
+td:contains("Programación") {
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+}
+
+/* Contabilidad */
+td:contains("Contabilidad") {
+    background-color: #fff8e1;
+    color: #ff8f00;
+}
+
+/* Administración */
+td:contains("Administración") {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+/* Finanzas */
+td:contains("Finanzas") {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+/* Derecho */
+td:contains("Derecho") {
+    background-color: #fce4ec;
+    color: #c2185b;
+}
+
+/* MS Office */
+td:contains("MS Office") {
+    background-color: #e0f2f1;
+    color: #00796b;
+}
+
+/* Leyenda */
+.leyenda {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Elementos de la leyenda */
+.leyenda-item {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Controles del carrusel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+    opacity: 0.8;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* Colores específicos para la leyenda */
+.matematicas {
+    background-color: #e6efff;
+    color: #0062cc;
+}
+
+.ingles {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+.programacion {
+    background-color: #f3e5f5;
+    color: #7b1fa2;
+}
+
+.contabilidad {
+    background-color: #fff8e1;
+    color: #ff8f00;
+}
+
+.administracion {
+    background-color: #ffebee;
+    color: #c62828;
+}
+
+.finanzas {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+.derecho {
+    background-color: #fce4ec;
+    color: #c2185b;
+}
+
+.ms-office {
+    background-color: #e0f2f1;
+    color: #00796b;
+}
+
